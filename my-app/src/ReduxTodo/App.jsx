@@ -7,7 +7,6 @@ const App = () => {
     const theme = createTheme();
   return (
     <ThemeProvider theme={theme}>
-
     <ChakraProvider>
         <Todo/>
     </ChakraProvider>
